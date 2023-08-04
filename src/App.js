@@ -7,13 +7,10 @@ class App extends React.Component {
     this.state = {
       count: 0
     };
-    // Change code below this line
     this.increment = this.increment.bind(this);
     this.decrement = this.decrement.bind(this);
     this.reset = this.reset.bind(this);
-    // Change code above this line
   }
-  // Change code below this line
   increment(){
     this.setState(state => {
       return{
